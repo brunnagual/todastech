@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> </title>
+<!-- 
+Leia um caractere maiúsculo, que indica uma operação que deve ser realizada e uma matriz M[12][12]. Em seguida, calcule e mostre a soma ou a média considerando somente aqueles elementos que estão acima da diagonal principal da matriz, conforme ilustrado abaixo (área verde).
+
+
+
+
+Entrada
+A primeira linha de entrada contem um único caractere Maiúsculo O ('S' ou 'M'), indicando a operação (Soma ou Média) que deverá ser realizada com os elementos da matriz. Seguem os 144 valores de ponto flutuante que compõem a matriz.
+
+Saída
+Imprima o resultado solicitado (a soma ou média), com 1 casa após o ponto decimal.
+
+ -->
+    <script>
+let O = lines.shift();
+let M = [];
+
+for (let i = 0; i < 12; i++) { // loop linha
+    M[i] = [];
+    for (let j = 0; j < 12; j++) { // loop coluna
+        M[i][j] = parseFloat(lines.shift());
+    }
+}
+
+// Calculando a soma ou a média dos elementos acima da diagonal principal
+let soma = 0;
+let contadorMedia = 0; 
+for (let i = 0; i < 12; i++) {
+    for (let j = i+1; j < 12; j++) {//para andar para cima
+        soma += M[i][j];
+        contadorMedia++;
+    }
+}
+
+let resultado = O === 'S' ? soma : soma / contadorMedia;
+
+
+console.log(resultado.toFixed(1));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

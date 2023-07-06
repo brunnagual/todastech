@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> </title>
+<!-- 
+Leia 5 valores Inteiros. A seguir mostre quantos valores digitados foram pares, quantos valores digitados foram ímpares, quantos valores digitados foram positivos e quantos valores digitados foram negativos.
+
+Entrada
+O arquivo de entrada contém 5 valores inteiros quaisquer.
+
+Saída
+Imprima a mensagem conforme o exemplo fornecido, uma mensagem por linha, não esquecendo o final de linha após cada uma.
+
+ -->
+    <script>
+var contadorPar = 0;
+var contadorImpar = 0;
+var contadorPositivo = 0;
+var contadorNegativo = 0;
+
+for(let i = 0; i < 5; i++){
+    var num = parseInt(lines.shift());
+    if (num  > 0){
+        contadorPar += 1;
+    }
+    if (num < 0){
+        contadorImpar += 1;
+    }
+    if (num % 2 === 0){
+        contadorPositivo += 1;
+    }
+    if (num % 2 === 1){
+        contadorNegativo += 1;
+    }
+}
+console.log(contadorPositivo+" valor(es) par(es)");
+console.log(contadorNegativo+" valor(es) impar(es)");
+console.log(contadorPar+" valor(es) positivo(s)");
+console.log(contadorImpar+" valor(es) negativo(s)");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,12 @@
+*HTML*
+Linguagem de marcação, para criar estruturas web, exemplo: textos, imagens, tabelas,formulários, links e etc..
+
+
+*CSS*
+Linguagem de estilos, podemos alterar caracteríscas dá Linguagem HTML, como por exemplo: Fontes, cores, bordas,sombreamento e etc.
+
+
+*JAVASCRIPT*
+É uma linguagem de programação.
+
+O JAVASCRIPT sendo usado apenas pelo navegador acaba sendo mais uma linguem de interação mas utilizando o Node que é uma ambiente de desenvolvimento permitindo programar em JAVASCRIPT para fazer uma conexão com o banco de dados. Ai acaba se tornando uma linguagem de programação.

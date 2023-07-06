@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- CSS -->
+<style>
+    form{
+        background-color: rgb(216, 213, 213);
+        padding: 15px;
+        width: 400px;
+        margin: 50px auto;
+        border: solid #999 1px ;
+        border-radius: 10px;
+    }
+    input[type"text"], input[type"number"]{
+        width: 390px;
+        margin-bottom: 10px;
+    }
+</style>
+
+<!-- JS -->
+<script>
+    function mensagem(){
+        // Obter o nome e a idade
+        var nome = document.getElementById("nome").value;
+        var idade = document.getElementById("idade").value;
+
+        // Frase
+        alert(nome + " Tem " + idade + " anos. ")
+    }
+</script>
+
+</head>
+<body>
+    <form>
+        <input type="text" id="name" placeholder="Informe um nome">
+        <input type="number" id="idade" placeholder="Informe uma idade">
+        <input type="button" value="Enviar" onclick="mensagem()">
+    </form>
+</body>
+</html>

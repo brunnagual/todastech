@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> </title>
+<!-- 
+
+Faça um programa que leia um vetor X[10]. Substitua a seguir, todos os valores nulos e negativos do vetor X por 1. Em seguida mostre o vetor X.
+
+Entrada
+A entrada contém 10 valores inteiros, podendo ser positivos ou negativos.
+
+Saída
+Para cada posição do vetor, escreva "X[i] = x", onde i é a posição do vetor e x é o valor armazenado naquela posição.
+ -->
+    <script>
+// entrada
+let input = require('fs').readFileSync('/dev/stdin', 'utf-8'); // adicione uma barra "/" antes do "dev" para ser aceito no beecrowd
+
+// processamento & saida
+let vetor = input.split('\n').map(v => parseInt(v));
+
+for(let i = 0; i < vetor.length; i++){
+    if(vetor[i] < 1) vetor[i] = 1;
+    console.log(`X[${i}] = ${vetor[i]}`);
+}
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> 1019 - Conversão de Tempo</title>
+<!-- 
+
+Leia um valor inteiro, que é o tempo de duração em segundos de um determinado evento em uma fábrica, e informe-o expresso no formato horas:minutos:segundos.
+
+Entrada
+O arquivo de entrada contém um valor inteiro N.
+
+Saída
+Imprima o tempo lido no arquivo de entrada (segundos), convertido para horas:minutos:segundos, conforme exemplo fornecido.
+
+
+ -->
+    <script>
+var segundos = parseInt(lines.shift());
+
+var horas = Math.floor(segundos / 3600); //A função Math.floor(x) retorna o menor número inteiro dentre o número "x".
+segundos %= 3600;
+var minutos = Math.floor(segundos / 60);
+segundos %= 60;
+
+console.log(`${horas}:${minutos}:${segundos}`);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

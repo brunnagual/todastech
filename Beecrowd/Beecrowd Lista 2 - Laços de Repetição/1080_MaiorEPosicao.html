@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+    <!-- 
+
+Leia 100 valores inteiros. Apresente então o maior valor lido e a posição dentre os 100 valores lidos.
+
+Entrada
+O arquivo de entrada contém 100 números inteiros, positivos e distintos.
+
+Saída
+Apresente o maior valor lido e a posição de entrada, conforme exemplo abaixo.
+     -->
+<script>
+        /*Declaração das variaveis*/
+         var n =0;
+         var pos = 0;
+         var aux = 0;
+       
+         //var numero = parseInt(lines.shift())
+           
+        for (let i = 1; i < 101; i++){
+        //var n = parseInt(prompt("Digite o valor de numero"));
+         var n = parseInt(lines.shift())
+          if  (n > pos){
+            pos = n;
+            aux = i;
+          }
+           
+        }
+        console.log(pos);
+        console.log(aux);       
+   </script>
+   </head>
+   <body>
+       
+   </body>
+   </html>

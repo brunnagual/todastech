@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+      </style>
+      
+<style>
+    
+    /* o ponto indica que estamos colocando dentro de uma classe 
+    .paragrafo{
+        color: #f00;
+    }
+    .negrito{
+        font-weight: bold;
+    }
+    .corBotao{
+        background-color: rgb(77, 0, 90);
+        color: #fff;
+    }
+    */
+    h1{
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    form {
+        width: 600px;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    input, select{
+        margin-bottom: 10px;
+    }
+    body{
+        background-color: rgb(223, 247, 247);
+    }
+    img{
+        width: 150px;
+        margin: 10px;
+    }
+</style>
+
+</head>
+<body>
+<!-- tag de parágrafo que serve para quebrar linha
+    <p class="paragrafo negrito">Meu primeiro parágrafo</p>
+    <p>Meu segundo parágrafo</p>
+ -->
+
+    <h1>Conversão de moedas</h1>
+    <form>
+        <img src="dinheiro.png " alt="Imagem de dinheiro" class="img">
+
+        <input type="number" id="valor" placeholder="Valor" class="form-control">
+
+        <select id="moeda" class="form-control">
+            <option value="0" > Escolha a conversão</option>
+            <option value="1" > Real para Dólar</option>
+            <option value="2" > Dólar para Real</option>
+        </select>
+
+        <input type="button" value="Calcular" class="btn btn-primary">
+    </form>
+</body>
+</html>

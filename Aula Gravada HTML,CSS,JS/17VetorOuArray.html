@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>17 - Vetor ou Arrays </title>
+
+    <script>
+      /*
+      Um vetor ou array é uma variavel que guarda multiplos dados.
+      Podendo criar uma variavel que englobe os dados que estamos querendo.
+
+      O vetor é utilaza o colchetes para definir um vetor []
+      */  
+
+      // Vetor
+      var cores = ["Azul","Verde","Amarelo"]
+
+      // Exibir o vetor
+      // console.log(cores)
+      
+      // Exibir informação de uma determinada posição.
+      //document.write(cores.length)
+
+      // Adicionando informação
+      cores.push("Vermelho")
+      // Alterar
+      cores[1] = "Rosa"
+      // Excluir
+      cores.splice(2,1)
+      // Listando cores
+      for(var indice=0; indice<cores.length; indice++){
+        document.write((indice+1) +"ª "+cores[indice]+"<br>")
+      }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+        var lines = input.split('\n');
+
+        var raio = parseFloat(lines.shift(2.00));
+
+        var n = 3.14159;
+
+        var area = n * raio ** 2;
+
+        console.log("A=" + area.toFixed(4));
+        
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
