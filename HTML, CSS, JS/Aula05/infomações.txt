@@ -1,0 +1,14 @@
+### Api (Application programming Interface)
+
+> Conceito: Sistema que pode realizar diversos tipos de ações/requisições.
+
+> Requisições:
+POST: Cadastrar
+GET: Selecionar
+PUT: Alterar
+DELETE: Remoção.
+
+### Fetch
+
+Vai fazer a requisição para API
+O comando fetch é uma funcionalidade utilizada em linguagens de programação para realizar solicitações de recursos de um servidor. Sua finalidade principal é permitir que um programa ou aplicativo obtenha dados de um servidor web, ou API. Com o comando fetch, é possível realizar solicitações HTTP, como GET, POST, PUT, DELETE, entre outros, e receber as respostas correspondentes do servidor. Essa funcionalidade é amplamente utilizada em desenvolvimento web e aplicativos para consumir e enviar dados entre o cliente e o servidor.
