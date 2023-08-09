@@ -7,4 +7,4 @@ void main() {
   }
 }
 
-// Neste código, criamos um vetor chamado nomes que contém cinco strings representando os nomes. Em seguida, utilizamos um laço de repetição for-in para percorrer o vetor e imprimir cada nome no console. O resultado será a impressão dos cinco nomes na sequência: João, Maria, Pedro, Ana e Carlos.
+// Neste código, criamos um vetor chamado nomes que contém cinco strings representando os nomes. Em seguida, utilizamos um laço de repetição for-in para percorrer o vetor e imprimir cada nome no console. O resultado será a impressão dos cinco nomes na sequência: João, Maria, Pedro, Ana e Carlos.ææ
